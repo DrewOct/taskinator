@@ -225,7 +225,7 @@ for (var i = 0; i < tasks.length; i++) {
     }
 }
 // reassign tasks array to be the same as updatedTaskArr
-tasks = updatedTaskArr;
+tasks = updatedTaskArr;``
 };
 
 formEl.addEventListener("submit", taskFormHandler);
